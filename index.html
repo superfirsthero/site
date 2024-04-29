@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "first-wrap-top">
+            <div class = "app-name">MINES</div>
+            <div class = "progress-bar"><progress id = "myProgress" class="file" max="100" value="0"></progress></div>
+            <div class = "button-telegram"><a href="https://t.me/mines_okey" class="button_telegram">Telegram канал</a></div>
+        </div>
+        <div class = "enter-name">
+            <div class = "description">Выберите количество мин:</div>
+            <div class="dropdown">
+              <button class="mainmenubtn">🔍</button>
+              <div class="dropdown-child">
+                <a onclick="moveProgress_1()" class = "mines_1_start">1 мина</a>
+                <a onclick="moveProgress_3()" class = "mines_3_start">3 мины</a>
+                <a onclick="moveProgress_3()" class = "mines_3_start">5 мин</a>
+                <a onclick="moveProgress_3()" class = "mines_3_start">7 мин</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

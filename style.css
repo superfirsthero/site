@@ -1,0 +1,163 @@
+.container {
+    display:flex;
+    flex-direction : Column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(to right, #fcb045, #fd1d1d);
+
+
+}
+
+.first-wrap-top {
+    border: 4px gray;
+    height: 500px;
+    width: 900px;
+    background: linear-gradient(rgb(54, 137, 193), rgb(35, 81, 234));
+    border-radius: 100px 100px 30px 30px;
+}
+
+.app-name {
+    color: white;
+    font-size: 95px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.progress-bar {
+    text-align: center
+}
+
+
+.beta-version {
+    padding-left: 114px;
+    font-family: Arial;
+}
+
+.file {
+    width: 500px;
+    height: 10px;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-telegram {
+    margin-top:  100px;
+    margin-left:  200px;
+    width: 450px;
+    height: 75px;
+    padding: 15px;
+    border-left: 4px solid #f00;
+    border-right: 4px solid #3020ff;
+    background-image: linear-gradient(45deg, #f00, #3020ff), linear-gradient(45deg, #f00, #3020ff);
+    background-size: 100% 2px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Italic;
+    background-color:  gray;
+
+}
+
+.button_telegram {
+  display: inline-block;
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enter-name {
+    height: 550px;
+    width: 900px;
+    margin-top: 35px;
+    background-color: green;
+    border: 4px gray;
+    border-radius: 30px 30px 100px 100px;
+    background-image: linear-gradient(45deg, blue, yellow), linear-gradient(45deg, blue, red);
+    background-size: 100% 2px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(155, 198, 14), rgb(245, 232, 118));
+}
+
+.description {
+    color: white;
+    font-size: 50px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.mainmenubtn {
+    background-color: green;
+
+    font-size:  125px;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    height: 550px;
+    width: 900px;
+    margin-top: 35px;
+    background-color: green;
+    border: 4px gray;
+    border-radius: 30px 30px 100px 100px;
+    background-image: linear-gradient(45deg, blue, yellow), linear-gradient(45deg, blue, red);
+    background-size: 100% 2px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(155, 198, 14), rgb(245, 232, 118));
+}
+
+.mainmenubtn:hover {
+    border: 15px solid gold;
+    
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #2196F3;
+    min-width: 200px;
+    border:  4px gray;
+    border-radius: 10px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.mines_1_start:hover {
+    background-color: red;
+    border:  4px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mines_3_start:hover {
+    background-color: red;
+    border:  4px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
